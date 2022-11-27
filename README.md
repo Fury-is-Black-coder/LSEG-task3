@@ -3,6 +3,7 @@
 In this project is used Silenium Web Driver (https://www.selenium.dev/), because lib JSOUP can't read changeable values and scrool web page. 
 
 We open conection, than open web page and scrool to needed changeable item. Finally, we read that value and write to our console. It's very painstaking process.
+To run program - run testNG! 
 
 ![Screenshot_5](https://user-images.githubusercontent.com/57364788/204150818-d88ea7cf-dc15-4dc9-b0de-9ff32bf881c3.png)
 
