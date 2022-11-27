@@ -1,6 +1,6 @@
 # LSEG-task3
 
-In this project is used Silenium Web Driver (https://www.selenium.dev/), becouse lib JSOUP can't read changeable values and scrool web page. 
+In this project is used Silenium Web Driver (https://www.selenium.dev/), because lib JSOUP can't read changeable values and scrool web page. 
 
 We open conection, than open web page and scrool to needed changeable item. Finally, we read that value and write to our console. It's very painstaking process.
 
