@@ -1,5 +1,13 @@
 # LSEG-task3
 
+**To avoid errors, you need to add the path to the libraries from folder "libraries" in each project. 
+add jsoup-1.15.3.jar manualy and Run TestNG Configuration with selenium solution. (Wait for the end of the program execution) For running you have two options. 
+
+a) In IntelliJ Idea click like at image below to clear caches. This error occurs when running the project with TestNG on another local machine.![image](https://user-images.githubusercontent.com/57364788/204531013-7b6dff5a-cfd5-410d-aa6f-eee06330cd05.png)
+b) Add configuration with TestNG in class org.example.Main  Method: test  like image below
+![image](https://user-images.githubusercontent.com/57364788/204531127-7be23fd6-01ee-461c-b1e7-fde045591006.png)
+**
+
 In this project is used Silenium Web Driver (https://www.selenium.dev/), because lib JSOUP can't read changeable values and scrool web page. 
 
 We open conection, than open web page and scrool to needed changeable item. Finally, we read that value and write to our console. It's very painstaking process.
