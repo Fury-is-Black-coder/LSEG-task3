@@ -3,9 +3,9 @@
 **To avoid errors, you need to add the path to the libraries from folder "libraries" in each project. 
 add jsoup-1.15.3.jar manualy and Run TestNG Configuration with selenium solution. (Wait for the end of the program execution) For running you have two options. 
 
-a) In IntelliJ Idea click like at image below to clear caches. This error occurs when running the project with TestNG on another local machine.**
-![image](https://user-images.githubusercontent.com/57364788/204531013-7b6dff5a-cfd5-410d-aa6f-eee06330cd05.png)
-**b) Add configuration with TestNG in class org.example.Main  Method: test  like image below**
+a) In IntelliJ Idea click like at image below to clear caches. This error occurs when running the project with TestNG on another local machine.\**
+![image](https://user-images.githubusercontent.com/57364788/204531013-7b6dff5a-cfd5-410d-aa6f-eee06330cd05.png) \
+**b) Add configuration with TestNG in class org.example.Main  Method: test  like image below\**
 ![image](https://user-images.githubusercontent.com/57364788/204531127-7be23fd6-01ee-461c-b1e7-fde045591006.png)
 
 
